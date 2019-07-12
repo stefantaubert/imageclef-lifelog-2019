@@ -1,0 +1,10 @@
+wordcloud
+pandas
+numpy
+matplotlib
+tqdm
+gensim
+pdtransform
+nltk
+xgboost
+joblib

@@ -1,0 +1,6 @@
+opt_use_idf = "use_idf"
+opt_idf_boosting_threshold = "idf_boosting_threshold"
+opt_intensify_factor_m = "intensify_factor_m"
+opt_intensify_factor_p = "intensify_factor_p"
+opt_ceiling = "ceiling"
+opt_multiprocessing = "multiprocessing"

@@ -1,0 +1,1 @@
+root = "/mnt/hdd/sttau/datasets/ImageCLEF2019lifelog/"
