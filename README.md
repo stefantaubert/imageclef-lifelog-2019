@@ -1,6 +1,6 @@
 # Automated Lifelog Moment Retrieval based on Image Segmentation and Similarity Scores
 
-By [Stefan Taubert](https://stefantaubert.com/), [Max Mauermann](https://www.tu-chemnitz.de/informatik/HomePages/Medieninformatik/team.php.en), [Stefan Kahl](http://medien.informatik.tu-chemnitz.de/skahl/about/), [Thomas Wilhelm-Stein](https://www.tu-chemnitz.de/informatik/HomePages/Medieninformatik/team.php.en), [Danny Kowerko](https://www.tu-chemnitz.de/informatik/mc/staff.php.en) and [Maximilian Eibl](https://www.tu-chemnitz.de/informatik/HomePages/Medieninformatik/team.php.en)
+By [Stefan Taubert](https://stefantaubert.com/), [Stefan Kahl](http://medien.informatik.tu-chemnitz.de/skahl/about/), [Danny Kowerko](https://www.tu-chemnitz.de/informatik/mc/staff.php.en) and [Maximilian Eibl](https://www.tu-chemnitz.de/informatik/HomePages/Medieninformatik/team.php.en)
 
 ## Introduction
 
