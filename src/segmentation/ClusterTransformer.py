@@ -20,4 +20,9 @@ class ClusterTransformer(CachableTransformerBase):
 
     def transform_core(self, histograms: list):
         cluster = shc.linkage(histograms, method=self.method, metric=self.metric)
+        # from matplotlib import pyplot as plt
+        # plt.figure()
+        # dn = shc.dendrogram(cluster)
+        # plt.show()
         return cluster
+    

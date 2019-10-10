@@ -14,7 +14,6 @@ from submissions.creator import create_submission
 gen_opts = {
     opt_general: {
         opt_usr: usr1,
-        
         opt_mp: True,
         opt_ds: None,
     }

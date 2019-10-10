@@ -21,7 +21,7 @@ def get_paths(usr=1, root=root):
     return paths
 
 def get_paths_cached(usr=1, root=root):
-    cache_path = "/tmp/paths_dict_{usr}.pkl".format(usr=str(usr))
+    cache_path = "{root}/tmp/paths_dict_{usr}.pkl".format(root=root, usr=str(usr))
     is_in_cache = Path(cache_path).exists()
     if is_in_cache:
         with open(cache_path, 'rb') as f:

@@ -1,6 +1,6 @@
 import unittest
 
-from src.submissions.converter import subm_to_df
+from submissions.runs.converter import subm_to_df
 
 class UnitTests(unittest.TestCase):
     

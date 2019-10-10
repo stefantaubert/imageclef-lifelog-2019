@@ -30,6 +30,7 @@ class ShowInFsTransformer(NoFitMixin):
         self.day = day
         self.usr = usr
         self.copy = copy
+        self.name = name
         
     def transform(self, clusters: list):
         if self.copy:
