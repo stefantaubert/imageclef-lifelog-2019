@@ -1,4 +1,5 @@
 from src.io.data_dir_config import root
+import os
 
 def get_path_from_rel_img_path(rel_path, usr=1, root=root):
     dir_pers = "u{usr}_photos".format(usr=usr)
@@ -95,3 +96,31 @@ def get_dir_auto(root=root, usr=1):
 def get_dir_pers(root=root, usr=1):
     img = get_dir_img(root, usr)
     return "{img}u{usr}_photos/".format(img=img, usr=str(usr))
+
+def get_an_root(root=root):
+    return "{root}analysis/".format(root=root)
+
+def get_antype_root(root=root, t=1, usr=1):
+    top_root = get_an_root(root)
+
+    if t == 1:
+        an_type = "data" 
+    elif t == 2:
+        an_type = "dev"
+    elif t == 3:
+        an_type = "test"
+    elif t == 4:
+        an_type = "model"
+    else:
+        raise AssertionError()
+    
+    return "{top_root}{an_type}/u{usr}/".format(top_root=top_root, an_type=an_type, usr=usr)
+
+def mk_dir(name, t=1, usr=1, root=root):
+    root = get_antype_root(root=root, t=t, usr=usr)
+    path = "{root}{name}/".format(root=root, name=name)
+    
+    if not os.path.exists(path):
+        os.makedirs(path)
+
+    return path

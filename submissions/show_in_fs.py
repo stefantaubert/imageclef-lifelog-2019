@@ -1,7 +1,7 @@
 from os.path import basename
 from collections import OrderedDict
 
-from analysis.paths import mk_dir
+from src.io.paths import mk_dir
 from src.common.helper import copy
 from src.common.helper import get_empty_dir
 from src.globals import an_type_test

@@ -1,7 +1,7 @@
 from os.path import basename
 
 from pdtransform import NoFitMixin
-from analysis.paths import mk_dir
+from src.io.paths import mk_dir
 from src.common.helper import copy
 
 def show_clusters_in_fs(clusters, dest_dir):
